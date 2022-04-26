@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Page</title>
+    <link type="text/css" href="{% static 'posts/css/styles.css' %}" rel="stylesheet"/>
+</head>
+<body>
+    <a href="{% url 'home' %}">Home Page</a>
+    <a href="{% url 'about' %}">About Page</a>
+    <a href="{% url 'add_page' %}">Add Information</a>
+    <a href="{% url 'contact' %}">Reverse Connect</a>
+    <a href="{% url 'login' %}">Sign In</a>
+    {% block content %}
+    <h1>{{ title }}</h1>
+    <p>This is About Page</p>
+    <ul>
+        {% for item in menu %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for post in posts %}
+            <li>
+                <h2>{{ post.title }}</h2>
+                <p>{{ post.content | linebreaks | truncatewords:10 }}</p>
+                <div class="clear"></div>
+                <p class="link-read-post"><a href="#">Читать больше</a></p>
+                <hr>
+            </li>
+        {% endfor %}
+    </ul>
+    {% endblock %}
+</body>
+</html>
