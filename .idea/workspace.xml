@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e25a23a2-cdce-4ec1-9e38-f5f141e709fa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Scripts/second_project/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/second_project/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/second_project" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/second_project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/second_project/Procfile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/second_project/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/second_project/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/second_project/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/second_project/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/second_project/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/second_project/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/second_project/runtime.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/second_project/second_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/second_project/second_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +110,17 @@
       <updated>1649758495807</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
